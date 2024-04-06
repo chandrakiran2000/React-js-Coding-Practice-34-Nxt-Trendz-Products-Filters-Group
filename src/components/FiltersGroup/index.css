@@ -1,0 +1,81 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.category-card-heading {
+  font-size: 30px;
+  color: #12022f;
+}
+.category-card-btn {
+  color: #64748b;
+  border: none;
+  background-color: #ffffff;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.ratings-list-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.ratings-list-card-heading {
+  font-size: 30px;
+  color: #12022f;
+}
+.ratings-list-card-btn {
+  border: none;
+  background-color: #ffffff;
+  font-size: 22px;
+  color: #64748b;
+  margin-top: 15px;
+}
+.ratings-list-card-img {
+  width: 150px;
+  height: 22px;
+}
+
+.search-card {
+}
+.search-input {
+  background-color: #f1f5f9;
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 80%;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.clear-filter-card {
+}
+.clear-filter-btn {
+  border: 2px solid #0967d2;
+  background-color: #ffffff;
+  height: 35px;
+  width: 120px;
+  color: #0967d2;
+  font-weight: 600;
+}
+
+.active {
+  color: #0967d2;
+}
