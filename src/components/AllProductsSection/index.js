@@ -143,7 +143,7 @@ class AllProductsSection extends Component {
   }
 
   // renderNoProducts = () => (
-  //   <div className="no-products-card no-products-view">
+  //   <div className="no-products-card">
   //     <img
   //       className="no-products-img"
   //       src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png"
@@ -151,7 +151,7 @@ class AllProductsSection extends Component {
   //     />
   //     <h1 className="no-failure-heading">No Products Found</h1>
   //     <p className="no-failure-para">
-  //       We could not find any products. Try other filters
+  //       We could not find any products. Try other filters.
   //     </p>
   //   </div>
   // )
@@ -188,7 +188,7 @@ class AllProductsSection extends Component {
         </ul>
       </div>
     ) : (
-      <div className="no-products-card no-products-view">
+      <div className="no-products-card">
         <img
           className="no-products-img"
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png"
@@ -196,7 +196,7 @@ class AllProductsSection extends Component {
         />
         <h1 className="no-failure-heading">No Products Found</h1>
         <p className="no-failure-para">
-          We could not find any products. Try other filters
+          We could not find any products. Try other filters.
         </p>
       </div>
     )
